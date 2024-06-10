@@ -7,7 +7,7 @@ const { FORMER } = require('dns');
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'password',
+    password: '',
     database: 'employee_tracker_db'
 });
 
